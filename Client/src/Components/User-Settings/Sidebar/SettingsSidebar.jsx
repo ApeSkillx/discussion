@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { UseState, UseEffect } from 'react';
 import './SettingsSidebar.css';
 import { NavLink } from 'react-router-dom';
 import GppMaybeIcon from '@mui/icons-material/GppMaybe';
@@ -11,8 +11,8 @@ import CloseIcon from '@mui/icons-material/Close';
 function SettingsSidebar() {
   // Responsiveness Handling
   const responsive_ss_width = 768;
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const [isSidebarVisible, setIsSidebarVisible] = windowWidth <= responsive_ss_width ? useState(false) : useState(true);
+  const [windowWidth, setWindowWidth] = UseState(window.innerWidth);
+  const [isSidebarVisible, setIsSidebarVisible] = windowWidth <= responsive_ss_width ? UseState(false) : UseState(true);
   function toggleSidebar() {
     setIsSidebarVisible(!isSidebarVisible);
   }
@@ -21,7 +21,7 @@ function SettingsSidebar() {
       setIsSidebarVisible(false);
     }
   }
-  useEffect(() => {
+  UseEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
       (window.innerWidth <= responsive_ss_width) ? setIsSidebarVisible(false) : setIsSidebarVisible(true);

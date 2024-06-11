@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { UseState, UseEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import axios from 'axios';
+import Axios from 'axios';
 import CryptoJS from 'crypto-js'
 import Cookies from 'js-cookie';
 import './css/sidebar.css';
@@ -14,8 +14,8 @@ import CloseIcon from '@mui/icons-material/Close';
 const sidebar = () => {
   // Responsiveness handling
   const responsive_sidebar_width = 580;
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const [isSidebarVisible, setIsSidebarVisible] = windowWidth <= responsive_sidebar_width ? useState(false) : useState(true);
+  const [windowWidth, setWindowWidth] = UseState(window.innerWidth);
+  const [isSidebarVisible, setIsSidebarVisible] = windowWidth <= responsive_sidebar_width ? UseState(false) : UseState(true);
 
   function toggleSidebar() {
     setIsSidebarVisible(!isSidebarVisible);
@@ -26,7 +26,7 @@ const sidebar = () => {
     }
   }
 
-  useEffect(() => {
+  UseEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
       (window.innerWidth <= responsive_sidebar_width) ? setIsSidebarVisible(false) : setIsSidebarVisible(true);
@@ -47,24 +47,29 @@ const sidebar = () => {
   }
 
   // Content fetching
-  const [ssmd, setSsmd] = useState([]);
-  const [institute, setInstitute] = useState('');
-  const [seenPost, setSeenPost] = useState('')
-  const [group, setGroup] = useState('');
-  const [mainG, setMainG] = useState('');
-  const [detail, setDetail] = useState('');
-  const [smd, setSmd] = useState('');
-  useEffect(() => {
+  const [ssmd, setSsmd] = UseState([]);
+  const [institute, setInstitute] = UseState('');
+  const [seenPost, setSeenPost] = UseState('')
+  const [group, setGroup] = UseState('');
+  const [mainG, setMainG] = UseState('');
+  const [detail, setDetail] = UseState('');
+  const [smd, setSmd] = UseState('');
+  UseEffect(() => {
     let userDetails = new Promise(async (resolve, reject) => {
-      const response = await axios.get(`/user-detail/${auth}`);
+
+      setInterval(async function () {       
+        const response = await Axios.get(`/user-detail/${auth}`);
       setSeenPost(response.data.message)
       resolve(response.data);
+      }, 1000);
+
+      
     });
 
     userDetails.then(
       async function (value) {
         async function getGroup() {
-          await axios
+          await Axios
             .get(`/group/${auth}`)
             .then(res => {
               // console.log('Group: ',res.data);
@@ -73,7 +78,7 @@ const sidebar = () => {
             .catch(err => console.error(err));
         }
         async function getMain() {
-          await axios
+          await Axios
             .get(`/MainGroup/${auth}`)
             .then(res => {
               // console.log('MainG: ',res.data);
@@ -87,19 +92,19 @@ const sidebar = () => {
 
         if (value.Hqrs == 1) {
           if (value.status == 1) {
-            const Inst_Name = await axios.get(`/InstituteName/${value.institute}`);
+            const Inst_Name = await Axios.get(`/InstituteName/${value.institute}`);
             // console.log('Institute: ',Inst_Name);
             setInstitute(Inst_Name.data);
           }
           else if (value.status == 2 || value.status == 3) {
-            const Smd_Name = await axios.get(`/SmdName/${value.Smdid}`);
+            const Smd_Name = await Axios.get(`/SmdName/${value.Smdid}`);
             // console.log('Smd1 : ',Smd_Name.data);
             setSmd(Smd_Name.data);
 
           }
         }
         else if (value.Hqrs == 2) {
-          const Smd_Name = await axios.get(`/SmdName/${value.Smdid}`);
+          const Smd_Name = await Axios.get(`/SmdName/${value.Smdid}`);
           // console.log('Smd2 : ',Smd_Name.data);
           setSmd(Smd_Name.data);
         }

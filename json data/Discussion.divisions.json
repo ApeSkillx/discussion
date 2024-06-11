@@ -3,7 +3,7 @@
     "_id": {
       "$oid": "64ddea3ec1ec30b466adef03"
     },
-    "name": "Agricultural Chemical/Organic Chemistry",
+    "name": "Agricultural Chemicals/Organic Chemistry",
     "member": []
   },
   {
@@ -73,14 +73,14 @@
     "_id": {
       "$oid": "64ddf19dc1ec30b466adef0d"
     },
-    "name": "Plant Breeding & Genetics",
+    "name": "Genetics & Plant Breeding",
     "member": []
   },
   {
     "_id": {
       "$oid": "64ddf1c4c1ec30b466adef0f"
     },
-    "name": "Seed Technology",
+    "name": "Seed Science & Technology",
     "member": []
   },
   {
@@ -129,7 +129,7 @@
     "_id": {
       "$oid": "64ddf231c1ec30b466adef16"
     },
-    "name": "Electronic & Instrumentation",
+    "name": "Electronics & Instrumentation",
     "member": []
   },
   {
@@ -150,21 +150,21 @@
     "_id": {
       "$oid": "64ddf261c1ec30b466adef19"
     },
-    "name": "Textile Manufacture",
+    "name": "Textile Manufacture & Technology",
     "member": []
   },
   {
     "_id": {
       "$oid": "64ddf26ec1ec30b466adef1a"
     },
-    "name": "Agricultural Structure & Environment Management",
+    "name": "Agricultural Structures & Environmental Management",
     "member": []
   },
   {
     "_id": {
       "$oid": "64ddf27dc1ec30b466adef1b"
     },
-    "name": "Flouriculture",
+    "name": "Floriculture & landscaping",
     "member": []
   },
   {
@@ -185,7 +185,7 @@
     "_id": {
       "$oid": "64ddf298c1ec30b466adef1e"
     },
-    "name": "Spices,  Plant & Medicine Science",
+    "name": "Spices, Plantation & Medicinal & Aromatic Plants",
     "member": []
   },
   {
@@ -213,7 +213,7 @@
     "_id": {
       "$oid": "64ddf2bec1ec30b466adef22"
     },
-    "name": "Agro-Forestry",
+    "name": "Agro forestry",
     "member": []
   },
   {
@@ -304,7 +304,7 @@
     "_id": {
       "$oid": "64ddf35ac1ec30b466adef2f"
     },
-    "name": "Animal Reproduction & Gynaecology",
+    "name": "Animal Reproduction and Gynaecology",
     "member": []
   },
   {
@@ -318,7 +318,7 @@
     "_id": {
       "$oid": "64ddf374c1ec30b466adef31"
     },
-    "name": "Live Stock Production & Management",
+    "name": "Livestock Production Management",
     "member": []
   },
   {
@@ -402,7 +402,7 @@
   "_id": {
     "$oid": "65258664feefbf8432ed35f8"
   },
-  "name": "Fish Processing Technology",
+  "name": "Fish Process Technology",
   "member": []
 },
 {
@@ -458,7 +458,7 @@
   "_id": {
     "$oid": "6525873ffeefbf8432ed3600"
   },
-  "name": "Economic Botany",
+  "name": "Economic Botany & Plant Genetics Resources",
   "member": []
 },
 {

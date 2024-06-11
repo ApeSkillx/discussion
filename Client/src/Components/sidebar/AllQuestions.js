@@ -29,12 +29,18 @@ const AllQuestions = ({ question }) => {
   const currentUserEmailFromCookies  = email[0]
   useEffect(() => {
     async function getUser() {
-      await axios.get(`/user-details/${currentUserEmailFromCookies}`)
+
+      setInterval(async function () {
+
+        await axios.get(`/user-details/${currentUserEmailFromCookies}`)
         .then((res) => {
           setCurrentUserDetailsFromDB(res.data)
           setSeen(res.data.message)
         })
-        .catch((error) => console.error(error));
+        .catch((error) => console.error(error));    
+      }, 1000);
+
+     
     }
     getUser();
   }, []);
@@ -144,7 +150,7 @@ function Question({ data,seen,currentUser, isAlreadyStarred }) {
         .catch(error => console.error(error));
     }
   };
-  let isQuestionSeen = true;
+  let isQuestionSeen = true;  
   const questionInUserMessages = seen?.find(obj=>obj.post_id === data._id); 
   if(questionInUserMessages){ // If question Id is in user's message in database. if not seen is taken as true
     isQuestionSeen = questionInUserMessages.seen;
