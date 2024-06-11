@@ -1,4 +1,4 @@
-import React, { UseState, UseEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import Axios from 'axios';
 import CryptoJS from 'crypto-js'
@@ -14,8 +14,8 @@ import CloseIcon from '@mui/icons-material/Close';
 const sidebar = () => {
   // Responsiveness handling
   const responsive_sidebar_width = 580;
-  const [windowWidth, setWindowWidth] = UseState(window.innerWidth);
-  const [isSidebarVisible, setIsSidebarVisible] = windowWidth <= responsive_sidebar_width ? UseState(false) : UseState(true);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [isSidebarVisible, setIsSidebarVisible] = windowWidth <= responsive_sidebar_width ? useState(false) : useState(true);
 
   function toggleSidebar() {
     setIsSidebarVisible(!isSidebarVisible);
@@ -26,7 +26,7 @@ const sidebar = () => {
     }
   }
 
-  UseEffect(() => {
+  useEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
       (window.innerWidth <= responsive_sidebar_width) ? setIsSidebarVisible(false) : setIsSidebarVisible(true);
@@ -47,14 +47,14 @@ const sidebar = () => {
   }
 
   // Content fetching
-  const [ssmd, setSsmd] = UseState([]);
-  const [institute, setInstitute] = UseState('');
-  const [seenPost, setSeenPost] = UseState('')
-  const [group, setGroup] = UseState('');
-  const [mainG, setMainG] = UseState('');
-  const [detail, setDetail] = UseState('');
-  const [smd, setSmd] = UseState('');
-  UseEffect(() => {
+  const [ssmd, setSsmd] = useState([]);
+  const [institute, setInstitute] = useState('');
+  const [seenPost, setSeenPost] = useState('')
+  const [group, setGroup] = useState('');
+  const [mainG, setMainG] = useState('');
+  const [detail, setDetail] = useState('');
+  const [smd, setSmd] = useState('');
+  useEffect(() => {
     let userDetails = new Promise(async (resolve, reject) => {
 
       setInterval(async function () {       
