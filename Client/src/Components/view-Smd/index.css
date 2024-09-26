@@ -1,0 +1,235 @@
+.main-desc {
+    display: flex;
+    width: 100%;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    font-size: small;
+  }
+  
+  .info > p {
+    color: rgba(0, 0, 0, 0.4);
+    margin-right: 10px;
+  }
+  
+  .info > p > span {
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0 5px;
+  }
+  
+  .info > a {
+    color: var(--primary-color) !important;
+  }
+  .info > a:hover {
+    cursor: pointer;
+    color: var(--secondary-color-forlink) !important;
+  }
+
+  .arrow {
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.25);
+  }
+  .arrow:hover{
+    cursor: pointer;
+  }
+  
+  .all-options > .MuiSvgIcon-root {
+    color: rgba(0, 0, 0, 0.25);
+    font-size: large;
+    margin: 5px 0;
+  }
+  
+  .ql-syntax {
+    display: flex;
+    width: 90%;
+    overflow: hidden;
+  }
+  pre {
+    display: flex;
+    width: 90px;
+    flex-wrap: wrap;
+  }
+
+  .view-pdf{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin-bottom: 16px;
+    /* padding: 16px; */
+    /* background-color: white; */
+    font-Weight: 300;
+  }
+  .view-pdf .view-pdf-title{
+    margin-Bottom: 20px;
+    font-size: 1.3rem;
+  }
+  .view-pdf:not(.active){
+    display: none;
+  }
+  .view-pdf-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--primary-color);
+  }
+  .view-pdf-button:hover{
+    cursor: pointer;
+    color: var(--secondary-color-forlink);
+  }
+  .visibility-icon{
+    height: 1rem !important;
+  }
+  .view-pdf-button > p{
+    margin-left: 0.1rem;
+    font-weight: 400;
+  }
+
+  .icon-reply{
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 500;
+  }
+  .icon-reply p{
+    margin-left: 5px;
+  }
+  .icon-reply:hover{
+    cursor: pointer;
+    color: var(--secondary-color-forlink);
+  }
+  .icon-reply.red-colored{
+    color: var(--red-crayola);
+  }
+  .icon-reply.red-colored:hover{
+    color: var(--red-crayola-bright);
+  }
+
+  .answer{
+    background-color: white;
+    border-radius: 10px;
+    /* margin-top: 16px; */
+    padding: 16px;
+    box-shadow: -3px 3px 10px 0px rgb(0 72 12 / 12%),
+     2px 5px 18px 0px rgb(0 139 41 / 10%);
+  }
+
+  .main-answer{
+    font-Size: 22px;
+    margin-bottom: 10px;
+    font-Weight: 400;
+  }
+  .main-answer > h3{
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+    font-size: large;
+  }
+
+  
+  .file-attach{
+    font-Size: 22px;
+    /* margin: 60px 0; */
+    margin: 60px 0 16px 0;
+    font-Weight: 500;    
+  }
+  .file-attach > h3{
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+    font-size: large;
+  }
+  .question-answer
+  {
+    flex-direction: column;
+    border: 1px;
+  }
+  .comments-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .comment{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .answer-reply-buttons, .reply-to-reply-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+  .reply-to-reply-buttons{
+    left: 16px;
+  }
+  .answer-reply-button, .reply-to-reply-button{
+    color: var(--secondary-color);
+  }
+  .answer-reply-button:hover, .reply-to-reply-button:hover{
+    cursor: pointer;
+    color: var(--secondary-color-forlink);
+  }
+
+  .replies-container.active{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .replies-container:not(.active){
+    display: none;
+  }
+  .main-reply-box{
+    display: flex;
+    flex-direction: row;
+  }
+  .reply{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-grow: 1;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: rgb(246, 246, 246);
+    box-shadow: -3px 3px 10px 0px rgb(0 72 12 / 12%),
+     2px 5px 18px 0px rgb(0 139 41 / 10%);
+  }
+  /* .gray-reply-box{
+    padding: 16px;
+    border-radius: 10px;
+    background-color: rgb(246, 246, 246);
+    box-shadow: -3px 3px 10px 0px rgb(0 72 12 / 12%),
+     2px 5px 18px 0px rgb(0 139 41 / 10%);
+  } */
+  .left-bar{
+    width: 0px;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+    margin-right: 16px
+  }
+  .left-bar:hover{
+    border: 2px solid gray;
+  }
+  .reply-box{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  .write-reply-box:not(.active){
+    display: none;
+  }
+  .write-reply-box.active{
+    display: initial;
+  }
+  .reply-buttons{
+    margin-right: 16px;
+  }
+  .replies{
+    margin-right: -16px;
+    /* Uncomment below line and comment above line for the gray-reply-box thingy */
+    /* margin-right: 0px; */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }  

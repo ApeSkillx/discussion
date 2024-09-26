@@ -1,0 +1,777 @@
+[{
+  "_id": {
+    "$oid": "64f7098ee512f41f96ba9526"
+  },
+  "name": "ICAR-Indian Institute of Pulses Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f7098ee512f41f96ba9527"
+  },
+  "name": "ICAR-Indian Institute of Rice Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f709e0e512f41f96ba9529"
+  },
+  "name": "ICAR-National Institute for Plant Biotechnology",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f709e0e512f41f96ba952a"
+  },
+  "name": "ICAR-National Research Centre for Integrated Pest Management",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f709e0e512f41f96ba952b"
+  },
+  "name": "ICAR-Indian Institute of Wheat and Barley Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70a25e512f41f96ba952c"
+  },
+  "name": "ICAR-Central Institute for Cotton Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70a25e512f41f96ba952d"
+  },
+  "name": "ICAR- National Rice Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70a25e512f41f96ba952e"
+  },
+  "name": "ICAR-Indian Institute of Oilseeds Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70a62e512f41f96ba952f"
+  },
+  "name": "ICAR-Indian Institute of Soybean Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70a62e512f41f96ba9530"
+  },
+  "name": "ICAR-Indian Institute of Millets Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70a62e512f41f96ba9531"
+  },
+  "name": "ICAR-Indian Institute of Seed Science",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70a98e512f41f96ba9532"
+  },
+  "name": "ICAR-Central Tobacco Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70a98e512f41f96ba9533"
+  },
+  "name": "ICAR-National Bureau of Plant Genetic Resources",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70a98e512f41f96ba9534"
+  },
+  "name": "ICAR-Indian Grassland & Fodder Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70af4e512f41f96ba9535"
+  },
+  "name": "ICAR-Directorate of Groundnut Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70af4e512f41f96ba9536"
+  },
+  "name": "ICAR-Sugarcane Breeding Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70af4e512f41f96ba9537"
+  },
+  "name": "ICAR-National Bureau of Agricultural Insect Resources",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70b30e512f41f96ba9538"
+  },
+  "name": "ICAR-Vivekananda Parvatiya Krishi Anusandhan Sansthan",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70b30e512f41f96ba9539"
+  },
+  "name": "ICAR-National Institute of Biotic Stress Management",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70b30e512f41f96ba953a"
+  },
+  "name": "ICAR-National Bureau of Agriculturally Important Microorganisms",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70b5ae512f41f96ba953b"
+  },
+  "name": "ICAR-Central Research Institute for Jute & Allied Fibres",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70b5ae512f41f96ba953c"
+  },
+  "name": "ICAR-Indian Institue of Maize Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70b5ae512f41f96ba953d"
+  },
+  "name": "ICAR-Directorate of Rapeseed Mustard Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70b81e512f41f96ba953e"
+  },
+  "name": "ICAR-Indian Agricultural Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70b81e512f41f96ba953f"
+  },
+  "name": "ICAR-Indian Institute of Sugarcane Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f70b81e512f41f96ba9540"
+  },
+  "name": "ICAR-Indian Institute of Agricultural Biotechnology",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f712a2e512f41f96ba9541"
+  },
+  "name": "ICAR-National Institute of High Security Animal Diseases",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f712a2e512f41f96ba9542"
+  },
+  "name": "ICAR-National Research Centre on Yak",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f712a2e512f41f96ba9543"
+  },
+  "name": "ICAR-National Institute of Veterinary Epidemiology and Disease Informatics",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f712c2e512f41f96ba9544"
+  },
+  "name": "ICAR-National Bureau of AnimalGenetic Resources",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f712c2e512f41f96ba9545"
+  },
+  "name": "ICAR-Central Institute for Research on Cattle",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f712c2e512f41f96ba9546"
+  },
+  "name": "ICAR-National Meat Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f712ece512f41f96ba9547"
+  },
+  "name": "ICAR-Indian Veterinary Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f712ece512f41f96ba9548"
+  },
+  "name": "ICAR-National Institute on Foot and Mouth Disease",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f712ece512f41f96ba9549"
+  },
+  "name": "ICAR-Central Sheep & Wool Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f71313e512f41f96ba954a"
+  },
+  "name": "ICAR-Directorate of Poultry Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f71313e512f41f96ba954b"
+  },
+  "name": "ICAR-National Research Centre on PiG",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f71313e512f41f96ba954c"
+  },
+  "name": "ICAR-Central Institute for Research on Buffaloes",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f71337e512f41f96ba954d"
+  },
+  "name": "ICAR-Central Avian Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f71337e512f41f96ba954e"
+  },
+  "name": "ICAR-National Research Centre for Equines",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f71337e512f41f96ba954f"
+  },
+  "name": "ICAR-National Institute of Animal Nutrition & Physiology",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f71397e512f41f96ba9550"
+  },
+  "name": "ICAR- National Dairy Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f71397e512f41f96ba9551"
+  },
+  "name": "ICAR- National Research Centre on Camel",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f71397e512f41f96ba9552"
+  },
+  "name": "ICAR-National Research Centre on Mithun",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f71397e512f41f96ba9553"
+  },
+  "name": "ICAR- Central Institute for Research on Goat",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f80016964ab9d83e6a8e93"
+  },
+  "name": "ICAR-Central Institute of Brackishwater Aquaculture",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f80016964ab9d83e6a8e94"
+  },
+  "name": "ICAR-National Bureau of Fish GeneticResources",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f80016964ab9d83e6a8e95"
+  },
+  "name": "ICAR-Central Institute of Fisheries Education",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f80039964ab9d83e6a8e96"
+  },
+  "name": "ICAR-Central Inland Fisheries Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f80039964ab9d83e6a8e97"
+  },
+  "name": "ICAR-Central Institute of Freshwater Aquaculture",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f80039964ab9d83e6a8e98"
+  },
+  "name": "ICAR-Central Marine Fisheries Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f8006c964ab9d83e6a8e99"
+  },
+  "name": "ICAR-Directorate of Coldwater Fisheries Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f8006c964ab9d83e6a8e9a"
+  },
+  "name": "ICAR-Central Institute of Fisheries Technology",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f8006c964ab9d83e6a8e9b"
+  },
+  "name": "ICAR-Indian Institute of Water Management",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f8009a964ab9d83e6a8e9c"
+  },
+  "name": "ICAR-Central Coastal Agricultural Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f8009a964ab9d83e6a8e9d"
+  },
+  "name": "ICAR-National Bureau of Soil Survey & Land Use Planning",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f8009a964ab9d83e6a8e9e"
+  },
+  "name": "ICAR-Central Research Institute for Dryland Agriculture",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f800dc964ab9d83e6a8e9f"
+  },
+  "name": "ICAR-Indian Institute of Soil Science",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f800dc964ab9d83e6a8ea0"
+  },
+  "name": "ICAR-Central Agroforestry Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f800dc964ab9d83e6a8ea1"
+  },
+  "name": "ICAR-Central Arid Zone Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f800fd964ab9d83e6a8ea2"
+  },
+  "name": "ICAR-Cental Soil Salinity Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f800fd964ab9d83e6a8ea3"
+  },
+  "name": "ICAR-Directorate of Weed Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f800fd964ab9d83e6a8ea4"
+  },
+  "name": "ICAR-Research Complex for Eastern Region",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f8016e964ab9d83e6a8ea5"
+  },
+  "name": "ICAR-ICAR Research Complex for NEH Region",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f8016e964ab9d83e6a8ea6"
+  },
+  "name": "ICAR-Indian Institute of Farming Systems Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f8016e964ab9d83e6a8ea7"
+  },
+  "name": "ICAR-Indian Institute of Soil & Water Conservation",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f801a4964ab9d83e6a8ea8"
+  },
+  "name": "ICAR-National Institute of Abiotic Stress Management",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f801a4964ab9d83e6a8ea9"
+  },
+  "name": "ICAR-Mahatma Gandhi Integrated Farming Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f801a4964ab9d83e6a8eaa"
+  },
+  "name": "ICAR-Central Institute for Research on Cotton Technology",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f801da964ab9d83e6a8eab"
+  },
+  "name": "ICAR-Central Institute of Post-harvest Engineering & Technology",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f801da964ab9d83e6a8eac"
+  },
+  "name": "ICAR-Central Institute of Agricultural Engineering",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f801da964ab9d83e6a8ead"
+  },
+  "name": "ICAR-National Institute of Natural Fibre Engineering and Technology",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f80409964ab9d83e6a8eae"
+  },
+  "name": "ICAR-National Institute of Secondary Agriculture",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f80409964ab9d83e6a8eaf"
+  },
+  "name": "Agricultural Technology Application Research Institute, Zone – I (Ludhiana)",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f80409964ab9d83e6a8eb0"
+  },
+  "name": "Agricultural Technology Application Research Institute, Zone – II (Jodhpur)",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f80432964ab9d83e6a8eb1"
+  },
+  "name": "Agricultural Technology Application Research Institute, Zone – III (Kanpur)",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f80432964ab9d83e6a8eb2"
+  },
+  "name": "Agricultural Technology Application Research Institute, Zone - IV (Patna)",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f80432964ab9d83e6a8eb3"
+  },
+  "name": "Agricultural Technology Application Research Institute, Zone – V (Kolkatta)",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f80461964ab9d83e6a8eb4"
+  },
+  "name": "Agricultural Technology Application Research Institute, Zone – VI (Guwahati)",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f80461964ab9d83e6a8eb5"
+  },
+  "name": "Agricultural Technology Application Research Institute, Zone – VII (Shilong)",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f80461964ab9d83e6a8eb6"
+  },
+  "name": "Agricultural Technology Application Research Institute, Zone – VIII (Pune)",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f80493964ab9d83e6a8eb7"
+  },
+  "name": "Agricultural Technology Application Research Institute, Zone – IX (Jabalpur)",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f80493964ab9d83e6a8eb8"
+  },
+  "name": "Agricultural Technology Application Research Institute, Zone – X (Hyderabad)",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f80493964ab9d83e6a8eb9"
+  },
+  "name": "Agricultural Technology Application Research Institute, Zone – XI (Bengaluru)",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f804bd964ab9d83e6a8eba"
+  },
+  "name": "ICAR-National Academy of Agricultural Research Management",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f804bd964ab9d83e6a8ebb"
+  },
+  "name": "ICAR- Central Institute for Women in Agriculture",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f804bd964ab9d83e6a8ebc"
+  },
+  "name": "ICAR - National Institute of Agricultural Economics & Policy Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f804e6964ab9d83e6a8ebd"
+  },
+  "name": "ICAR- Indian Agricultural Statistical Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f82220964ab9d83e6a8ebe"
+  },
+  "name": "ICAR-National Research Centre for Grapes", 
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f82220964ab9d83e6a8ebf"
+  },
+  "name": "ICAR-National Research Centre for Banana",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f82220964ab9d83e6a8ec0"
+  },
+  "name": "ICAR-Central Institute for Subtropical Horticulture",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f8223d964ab9d83e6a8ec1"
+  },
+  "name": "ICAR-National Research Centre on Pomegranate",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f8223d964ab9d83e6a8ec2"
+  },
+  "name": "ICAR-Directorate of Mushroom Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f8223d964ab9d83e6a8ec3"
+  },
+  "name": "ICAR-Central Institute for Arid Horticulture",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f82271964ab9d83e6a8ec4"
+  },
+  "name": "ICAR-Central Plantation Crops Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f82271964ab9d83e6a8ec5"
+  },
+  "name": "ICAR-Indian Institute of Vegetable Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f82271964ab9d83e6a8ec6"
+  },
+  "name": "ICAR-National Research Centre for Orchids",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f822a1964ab9d83e6a8ec7"
+  },
+  "name": "ICAR-Indian Institute of Spices Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f822a1964ab9d83e6a8ec8"
+  },
+  "name": "ICAR-Central Island Agricultural Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f822a1964ab9d83e6a8ec9"
+  },
+  "name": "ICAR-Central Potato Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f822d6964ab9d83e6a8eca"
+  },
+  "name": "ICAR-Central Institute of Temperate Horticulture",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f822d6964ab9d83e6a8ecb"
+  },
+  "name": "ICAR-Directorate of Cashew Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f822d6964ab9d83e6a8ecc"
+  },
+  "name": "ICAR-Directorate of Onion and Garlic Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f82302964ab9d83e6a8ecd"
+  },
+  "name": "ICAR-Central Tuber Crops Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f82302964ab9d83e6a8ece"
+  },
+  "name": "ICAR-Central Citrus Research Institute",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f82302964ab9d83e6a8ecf"
+  },
+  "name": "ICAR-Indian Institute of Horticultural Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f8234f964ab9d83e6a8ed0"
+  },
+  "name": "ICAR-Directorate of Medicinal and Aromatic Plants Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f8234f964ab9d83e6a8ed1"
+  },
+  "name": "ICAR-Directorate of Floricultural Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f8234f964ab9d83e6a8ed2"
+  },
+  "name": "ICAR-Indian Institute of Oil Palm Research",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f82374964ab9d83e6a8ed3"
+  },
+  "name": "ICAR-National Research Centre on Seed Spices",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "64f82374964ab9d83e6a8ed4"
+  },
+  "name": "ICAR-NationalResearchCentre for Litchi",
+  "member": []
+}]

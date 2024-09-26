@@ -1,0 +1,61 @@
+
+/*======================
+    404 page
+    align-items: center;
+    display : inline-block;
+    font-family :"YouTube Noto", Roboto, arial, sans-serif;
+font-feature-settings: normal;
+font-kerning :auto;
+font-optical-sizing :auto;
+font-size: 12px;
+font-stretch :100%;
+font-style :normal;
+font-variant-alternates :normal;
+font-variant-caps :normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-variation-settings :normal;
+font-weight :400;
+height :294px;
+line-height :normal;
+text-align :center;
+vertical-align :middle;
+white-space :nowrap
+    width :500px;
+word-break :normal;
+}
+=======================*/
+
+/* errorpage.css */
+
+#error-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  #error-page-hh-illustration {
+    max-width: 300px; /* Adjust the size as needed */
+    margin-bottom: 20px;
+    
+  }
+  #error-page-content p {
+    margin: 10px 0;
+    margin-top: 0;
+    color: rgb(0, 102, 51);
+    font-size: 30px;
+  }
+  
+  
+  #error-page-content p1 {
+    margin: 10px 0;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(0, 102, 51);
+  }
+  

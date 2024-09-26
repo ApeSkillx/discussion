@@ -1,0 +1,48 @@
+.user-settings-main-container {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  padding: 16px;
+  margin: 0px 32px;
+  margin-bottom: 34px;
+}
+
+.user-settings-main {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 100%;
+}
+
+.us-main-section,
+.us-main-section-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;
+}
+
+.us-main-section-title {
+  font-size: x-large;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(0, 0, 0, 15%);
+}
+
+@media screen and (max-width:768px) {
+  .user-settings-main-container {
+    padding: 16px 0px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .us-main-section-title {
+    font-size: larger;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width:395px) {
+  .us-main-section-title{
+    font-weight: 450;
+  }
+}

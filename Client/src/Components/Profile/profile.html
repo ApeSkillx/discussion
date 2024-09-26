@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- NEED: title here --><title>Profile</title>
+    <!-- NEED: icon here -->
+    <link rel="icon" type="image/x-icon" href="#">
+
+    <link rel="stylesheet" href="./profile.css">
+</head>
+<body>
+    <!------------------ Temporary Stuff ------------------>
+    <header>
+        <nav class="navbar">
+            <p>TEMPORARY NAVBAR</p>
+        </nav>
+    </header>
+    <!---------------- Temporary Stuff End ---------------->
+
+    <main>    
+
+        <!------------------ Temporary Stuff ------------------>
+        <!-- Left sidebar thingy for navigating
+        NEED TO REMOVE/REPLACE WITH THE ONE IN MAIN PAGE -->
+        <div class="sidebar">
+            TEMP. SIDEBAR<br><br>
+            .HOME<br><br>
+            .PUBLIC<br>
+            .    Questions<br>
+            .    .    Tag<br>
+            .    .    Users<br><br>
+            .    Explore Collections<br>
+        </div>
+        <!---------------- Temporary Stuff End ---------------->
+        
+        <div class="main">
+
+            <!-- Basic Info: Profile picture, Name, Department, Email, link to Edit Profile -->
+            <div class="basic-info-container">
+                <div class="profile-picture-container">
+                    <!-- NEED: Profile picture here -->
+                    <img src="./res/pfp.png" alt="profile picture" id="profile-picture">
+                </div>
+                <div class="basic-info">                    
+                    <p id="name"><!-- NEED: Name here -->Bruce Wayne<p>                    
+                    <p id="department"><!-- NEED: Department here -->Technical</p>                    
+                    <p id="email"><!-- NEED: Email here -->Batmail@icar.gov.in</p>
+                </div>
+                <div class="edit-profile-container">
+                    <a role="button" class="edit-profile round-edges clickable"> <!-- NEED: link to edit profile -->
+                        <!-- NEED: Edit profile icon here (not compulsory) -->
+                        Edit Profile
+                    </a>
+                </div>
+            </div>
+
+            <!-- NOTE: For changing ID(s) follow below steps:
+                "menu-bar-container" me items/anchorTags ki jo bhi id hogi Vo id me "-container" laga ke uske respective "menu-container" me jo div hai, usko vo id do 
+            e.g. <a href="#" id="something" ...> (this is in "menu-bar-container") then,
+                 <div id="something-container" ...> (this should be in "menu-container") -->
+            <div class="menu-bar-container">
+                <!-- NOTE: Keeping the first one active by default (added active in the classList) -->
+                <a role="button" id="activity" class="menu-bar-item clickable active">Activity</a>
+                <a role="button" id="saves" class="menu-bar-item clickable">Saves</a>
+                <a role="button" id="settings" class="menu-bar-item clickable">Settings</a>
+            </div>
+
+            <!-- Need to fill this now -->
+            <div class="menu-container">
+                <!-- NOTE: Keeping the first one active by default (added active in the classList) -->
+                <div id="activity-container" class="menu-item active">
+                    <div id="activity-menu">
+                        <!-- Questions, Answers, Replies, etc. -->
+                        <div class="activity-categories-container">
+                            <a role="button" id="questions" class="activity-menu clickable active">Questions</a>
+                            <a role="button" id="answers" class="activity-menu clickable">Answers</a>
+                            <a role="button" id="replies" class="activity-menu clickable">Replies</a>
+                        </div>
+                        <!-- NOTE: Keeping the first one active by default (added active in the classList) -->
+                        <div id="questions-container" class="activity-menu-item active">
+                            <div id="questions-header">
+                                <span id="number-of-questions" class="questions-header-item"></span>
+                            </div>
+                            <div id="questions-box" class="questions-box">                                
+                                <!-- NOTE: Below will be generated as an object of a custom class by JS (written here for reference ) -->
+                                <!------------------------------------------------------------------------------------------------------>
+                            </div>
+                        </div>
+
+                        <div id="answers-container" class="activity-menu-item">
+                            <div id="answers-header">
+                                <span id="number-of-answers" class="answers-header-item"></span>
+                            </div>
+                            <div id="answers-box" class="answers-box">
+                                <!-- NOTE: Below will be generated as an object of a custom class by JS (written here for reference ) -->
+                                <!------------------------------------------------------------------------------------------------------>
+                            </div>
+                        </div>
+
+                        <div id="replies-container" class="activity-menu-item">
+                            <div id="replies-header">
+                                <span id="number-of-replies" class="replies-header-item"></span>
+                            </div>
+                            <div id="replies-box" class="replies-box">
+                                <!-- NOTE: Below will be generated as an object of a custom class by JS (written here for reference ) -->
+                                <!------------------------------------------------------------------------------------------------------>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="saves-container" class="menu-item">
+                    Saves Container
+                </div>
+
+                <div id="settings-container" class="menu-item">
+                    Settings Container
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <script src="./profile.js"></script>
+</body>
+</html>

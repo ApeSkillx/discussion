@@ -1,0 +1,231 @@
+[{
+  "_id": {
+    "$oid": "6487539f30cc72e9c608aaef"
+  },
+  "name": "CROP SCIENCES",
+  "member": [
+    "sachin@icar.gov.in",
+    "singh@icar.gov.in"
+  ],
+  "division": [
+    "64f7098ee512f41f96ba9526",
+    "64f7098ee512f41f96ba9527",
+    "64f709e0e512f41f96ba9529",
+    "64f709e0e512f41f96ba952a",
+    "64f709e0e512f41f96ba952b",
+    "64f70a25e512f41f96ba952c",
+    "64f70a25e512f41f96ba952d",
+    "64f70a25e512f41f96ba952e",
+    "64f70a62e512f41f96ba952f",
+    "64f70a62e512f41f96ba9530",
+    "64f70a62e512f41f96ba9531",
+    "64f70a98e512f41f96ba9532",
+    "64f70a98e512f41f96ba9533",
+    "64f70a98e512f41f96ba9534",
+    "64f70af4e512f41f96ba9535",
+    "64f70af4e512f41f96ba9536",
+    "64f70af4e512f41f96ba9537",
+    "64f70b30e512f41f96ba9538",
+    "64f70b30e512f41f96ba9539",
+    "64f70b30e512f41f96ba953a",
+    "64f70b5ae512f41f96ba953b",
+    "64f70b5ae512f41f96ba953c",
+    "64f70b5ae512f41f96ba953d",
+    "64f70b81e512f41f96ba953e",
+    "64f70b81e512f41f96ba953f",
+    "64f70b81e512f41f96ba9540"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6487539f30cc72e9c608aaf0"
+  },
+  "name": "HORTICULTURE SCIENCE",
+  "member": [],
+  "division": [
+    "64f82220964ab9d83e6a8ebe",
+    "64f82220964ab9d83e6a8ebf",
+    "64f82220964ab9d83e6a8ec0",
+    "64f8223d964ab9d83e6a8ec1",
+    "64f8223d964ab9d83e6a8ec2",
+    "64f8223d964ab9d83e6a8ec3",
+    "64f82271964ab9d83e6a8ec4",
+    "64f82271964ab9d83e6a8ec5",
+    "64f82271964ab9d83e6a8ec6",
+    "64f822a1964ab9d83e6a8ec7",
+    "64f822a1964ab9d83e6a8ec8",
+    "64f822a1964ab9d83e6a8ec9",
+    "64f822d6964ab9d83e6a8eca",
+    "64f822d6964ab9d83e6a8ecb",
+    "64f822d6964ab9d83e6a8ecc",
+    "64f82302964ab9d83e6a8ecd",
+    "64f82302964ab9d83e6a8ece",
+    "64f82302964ab9d83e6a8ecf",
+    "64f8234f964ab9d83e6a8ed0",
+    "64f8234f964ab9d83e6a8ed1",
+    "64f8234f964ab9d83e6a8ed2",
+    "64f82374964ab9d83e6a8ed3",
+    "64f82374964ab9d83e6a8ed4"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6487582d30cc72e9c608aaf1"
+  },
+  "name": "ANIMAL SCIENCES",
+  "member": [],
+  "division": [
+    "64f712a2e512f41f96ba9541",
+    "64f712a2e512f41f96ba9542",
+    "64f712a2e512f41f96ba9543",
+    "64f712c2e512f41f96ba9544",
+    "64f712c2e512f41f96ba9545",
+    "64f712c2e512f41f96ba9546",
+    "64f712ece512f41f96ba9547",
+    "64f712ece512f41f96ba9548",
+    "64f712ece512f41f96ba9549",
+    "64f71313e512f41f96ba954a",
+    "64f71313e512f41f96ba954b",
+    "64f71313e512f41f96ba954c",
+    "64f71337e512f41f96ba954d",
+    "64f71337e512f41f96ba954e",
+    "64f71337e512f41f96ba954f",
+    "64f71397e512f41f96ba9550",
+    "64f71397e512f41f96ba9551",
+    "64f71397e512f41f96ba9552",
+    "64f71397e512f41f96ba9553"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6487582d30cc72e9c608aaf2"
+  },
+  "name": "FISHERY SCIENCES",
+  "member": [],
+  "division": [
+    "64f80016964ab9d83e6a8e93",
+    "64f80016964ab9d83e6a8e94",
+    "64f80016964ab9d83e6a8e95",
+    "64f80039964ab9d83e6a8e96",
+    "64f80039964ab9d83e6a8e97",
+    "64f80039964ab9d83e6a8e98",
+    "64f8006c964ab9d83e6a8e99",
+    "64f8006c964ab9d83e6a8e9a"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6487585130cc72e9c608aaf3"
+  },
+  "name": "NATURAL RESOURCES MANAGMENT",
+  "member": [],
+  "division": [
+    "64f8006c964ab9d83e6a8e9b",
+    "64f8009a964ab9d83e6a8e9c",
+    "64f8009a964ab9d83e6a8e9d",
+    "64f8009a964ab9d83e6a8e9e",
+    "64f800dc964ab9d83e6a8e9f",
+    "64f800dc964ab9d83e6a8ea0",
+    "64f800dc964ab9d83e6a8ea1",
+    "64f800fd964ab9d83e6a8ea2",
+    "64f800fd964ab9d83e6a8ea3",
+    "64f800fd964ab9d83e6a8ea4",
+    "64f8016e964ab9d83e6a8ea5",
+    "64f8016e964ab9d83e6a8ea6",
+    "64f8016e964ab9d83e6a8ea7",
+    "64f801a4964ab9d83e6a8ea8",
+    "64f801a4964ab9d83e6a8ea9"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6487585130cc72e9c608aaf4"
+  },
+  "name": "AGRICUTURAL EDUCATION INSTITUTES",
+  "member": [],
+  "division": [
+    "64f804bd964ab9d83e6a8eba",
+    "64f804bd964ab9d83e6a8ebb",
+    "64f804bd964ab9d83e6a8ebc",
+    "64f804e6964ab9d83e6a8ebd"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6487587d30cc72e9c608aaf5"
+  },
+  "name": "AGRICULTURAL EXTENTION",
+  "member": [],
+  "division": [
+    "64f80409964ab9d83e6a8eaf",
+    "64f80409964ab9d83e6a8eb0",
+    "64f80432964ab9d83e6a8eb1",
+    "64f80432964ab9d83e6a8eb2",
+    "64f80432964ab9d83e6a8eb3",
+    "64f80461964ab9d83e6a8eb4",
+    "64f80461964ab9d83e6a8eb5",
+    "64f80461964ab9d83e6a8eb6",
+    "64f80493964ab9d83e6a8eb7",
+    "64f80493964ab9d83e6a8eb8",
+    "64f80493964ab9d83e6a8eb9"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6487587d30cc72e9c608aaf6"
+  },
+  "name": "AGRICULTURAL ENGINEERING INSTITUTES",
+  "member": [],
+  "division": [
+    "64f801a4964ab9d83e6a8eaa",
+    "64f801da964ab9d83e6a8eab",
+    "64f801da964ab9d83e6a8eac",
+    "64f801da964ab9d83e6a8ead",
+    "64f80409964ab9d83e6a8eae"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65284de161f573639a614e44"
+  },
+  "name": "INFORMATION AND COMPUTER TECHNOLOGY",
+  "member": [
+    "sharma@icar.gov.in",
+    "mishra@icar.gov.in"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65284de161f573639a614e45"
+  },
+  "name": "TECHNICAL CORDINATION",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "65284de161f573639a614e46"
+  },
+  "name": "INTERNATIONAL RELATIONS",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "65284e7061f573639a614e47"
+  },
+  "name": "PLANT IMPLEMENTATION AND MONITORING UNIT",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "65284e7061f573639a614e48"
+  },
+  "name": "INTELECTUAL PROPERY AND TECHNOLOGY MANAGMENT",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "65284e7061f573639a614e49"
+  },
+  "name": "NATIONAL AGRICULTURE SICENCE FUNDS",
+  "member": []
+}]

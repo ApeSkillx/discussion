@@ -1,0 +1,386 @@
+/* --------------- NOT IMPORTANT (For Temporary Stuff) --------------- */
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid black; */
+}
+.sidebar{
+    padding: 40px 16px 16px 50px;
+    border-width: 50px;
+    border-right: 2px solid lightgray;
+    min-height: 85vh;;
+    overflow: hidden;
+}
+.navbar {
+    border-bottom: 2px solid lightgray;
+    padding: 20px;
+    width: 97%;
+    text-align: center;
+    overflow: hidden;
+}
+/* ------------------------------------------------------------------- */
+/* ----------------------------- MAIN CHIJ --------------------------- */
+:root{
+    /* NEED: font here */
+    --main-body-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+    --main-green-color: rgb(0, 102, 51);
+    --main-fg-color: black;
+    --lightgray-hover-color: rgb(240, 240, 240);
+    --gray-hover-color: rgb(221, 221, 221);
+    --darkgray-hover-color: rgb(100, 100, 100);
+    --main-button-bgcolor:#0095ff;
+    --main-button-fgcolor:#fff;
+    --main-tag-bgcolor: rgba(116, 192, 255, 0.342);
+    --main-tag-hover-bgcolor: rgba(96, 162, 216, 0.582);
+    --main-tag-fgcolor: rgb(73, 115, 156);
+    --default-link-color: rgb(0, 112, 224);
+    --default-link-hover-color: rgb(104, 157, 209);
+    --faded-blue-hover-color: #0095ff15;
+
+    --main-profile-height: 128px;
+    --main-profile-width: 128px;
+    --container-padding: 16px;
+    --medium-padding: 10px;
+    --small-padding: 4px;
+}
+/*  */
+main{
+    display: flex;
+    flex-direction: row;
+    font-family: var(--main-body-font);
+}
+.round-edges{
+    border-radius: 5px;
+}
+.clickable{
+    cursor: pointer;
+}
+.tag{
+    display: none;
+    cursor: pointer;
+    background-color: var(--main-tag-bgcolor);
+    color: var(--main-tag-fgcolor);
+    padding: 5px;
+    border-radius: 4px;
+    margin-right: var(--small-padding);
+}
+.tag:hover{
+    background-color: var(--main-tag-hover-bgcolor);
+}
+/* ------------------------------------------------------------------- */
+/* ---------------------------- Basic Info --------------------------- */
+.basic-info-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    /* Might change this */ min-width: 80vw;
+}
+/*  */
+#profile-picture{
+    width: var(--main-profile-width);
+    height: var(--main-profile-height);
+    padding: var(--container-padding);
+}
+/*  */
+.basic-info{
+    flex-grow: 1;
+}
+.basic-info p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#name{
+    font-size: xx-large;
+}
+/*  */
+.edit-profile-container{
+    align-items: start;
+    padding: var(--container-padding);
+    height: var(--main-profile-height);
+}
+.edit-profile{
+    border: 1px gray solid;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(108, 108, 108);
+}
+.edit-profile:hover{
+    background-color: var(--lightgray-hover-color);
+    color: var(--darkgray-hover-color);
+}
+/* ------------------------------------------------------------------- */
+/* -------------------------- Categories Bar ------------------------- */
+.menu-bar-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 var(--container-padding);
+}
+.menu-bar-item{
+    /* border: none; /* If later decided to change anchor tags to button tags */
+    color: var(--main-fg-color);
+    margin-right: 5px;
+    padding: 10px var(--container-padding);   
+    text-decoration: none;
+    border-radius: 50px;
+}
+.menu-bar-item.active {
+    background-color: #0095ff;
+    color: white;
+}
+.menu-bar-item.active:hover {
+    background-color: #0072c4;
+}
+.menu-bar-item:not(.active) {
+    background-color: initial;
+    color: initial;
+}
+.menu-bar-item:hover{
+    background-color: var(--gray-hover-color);
+}
+/* ------------------------------------------------------------------- */
+/* ---------------------------- Categories --------------------------- */
+.menu-container{
+    padding: var(--container-padding);
+}
+.menu-item{
+    display: flex;
+}
+.menu-item:not(.active){
+    display: none;
+}
+.menu-item.active{
+    display: initial;
+}
+/* ------------------------------------------------------------------- */
+/* ------------------------ Activity Container ----------------------- */
+#activity-menu{
+    display: flex;
+    flex-direction: row;
+}
+.activity-categories-container{
+    display: flex;
+    flex-direction: column;
+    width: var(--main-profile-width);
+    position: sticky;
+}
+.activity-menu{
+    padding: 5px 16px;
+    border-radius: 50px;
+}
+.activity-menu:hover{
+    background-color: var(--gray-hover-color);
+}
+.activity-menu.active{
+    background-color: var(--lightgray-hover-color);
+}
+.activity-menu.active:hover{
+    background-color: initial;
+}
+.activity-menu-item{
+    padding-left: var(--container-padding);
+    flex-grow: 1;
+}
+.activity-menu-item:not(.active){
+    display: none;
+}
+.activity-menu-item.active{
+    display: initial;
+}
+
+/* -------------------------- Questions Menu ------------------------- */
+.questions-header-item{
+    font-size:x-large;
+}
+.questions-box{
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid var(--gray-hover-color);
+    border-radius: 5px;
+    min-height: 100px;
+}
+
+.question{
+    padding: var(--container-padding);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border-bottom: 1px solid var(--gray-hover-color);
+}
+.question-stats{
+    font-size: small;
+    margin: var(--small-padding) 0;
+}
+.question-stat-item{
+    margin-right: var(--small-padding);
+}
+.question-stat-item.question-number-of-answers-box{
+    background-color: var(--main-green-color);
+    color: white;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+
+.question-title{
+    font-size: large;
+    text-decoration: none;
+    margin: var(--small-padding) 0;
+}
+.question-title:visited{
+    color: var(--default-link-color);
+}
+.question-title:hover{
+    color: var(--default-link-hover-color);
+}
+.question-footer{
+    display: flex;
+    font-size: small;
+    margin: var(--small-padding) 0;
+}
+.question-tags{
+    flex-grow: 1;
+}
+.question-date-time{
+    text-align: end;
+    color: var(--darkgray-hover-color);
+}
+/* ------------------------------------------------------------------- */
+/* --------------------------- Answers Menu -------------------------- */
+.answers-header-item{
+    font-size:x-large;
+}
+.answers-box{
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid var(--gray-hover-color);
+    border-radius: 5px;
+    min-height: 100px;
+}
+
+.answer{
+    padding: var(--container-padding);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border-bottom: 1px solid var(--gray-hover-color);
+}
+.answer-stats{
+    font-size: small;
+    margin: var(--small-padding) 0;
+}
+.answer-stat-item{
+    margin-right: var(--small-padding);
+}
+
+.answer-title{
+    font-size: large;
+    text-decoration: none;
+    margin: var(--small-padding) 0;
+}
+.answer-title:visited{
+    color: var(--default-link-color);
+}
+.answer-title:hover{
+    color: var(--default-link-hover-color);
+}
+.answer-footer{
+    display: flex;
+    font-size: small;
+    margin: var(--small-padding) 0;
+}
+.answer-tags{
+    flex-grow: 1;
+}
+.answer-date-time{
+    text-align: end;
+    color: var(--darkgray-hover-color);
+}
+/* ------------------------------------------------------------------- */
+/* --------------------------- Replies Menu -------------------------- */
+.replies-header-item{
+    font-size:x-large;
+}
+.replies-box{
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid var(--gray-hover-color);
+    border-radius: 5px;
+    padding: 0;
+}
+.reply{
+    /* padding: var(--container-padding); */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border-bottom: 1px solid var(--gray-hover-color);
+}
+
+.reply-header{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+.reply-header-item{
+    margin: var(--medium-padding);
+}
+.reply-type{
+    color: var(--darkgray-hover-color);
+    font-size: small;
+    width: 100px;
+    text-align: end;
+}
+.expand-collapse-icon{
+    padding: 0;
+    height: 1.5rem;
+    cursor: pointer;
+}
+.expand-collapse-icon:hover{
+    background-color: var(--faded-blue-hover-color);
+}
+.reply-title{
+    font-size: large;
+    flex-grow: 1;
+    text-decoration: none;
+    color: (--default-link-color);
+}
+.reply-title:visited{
+    color: var(--default-link-color);
+}
+.replier-info{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: small;
+}
+.replier-info-item{
+    height: 1rem;
+    margin: var(--small-padding);
+}
+.replier-user-name{
+    text-decoration: none;
+    color: var(--default-link-color);
+}
+.replier-user-name:visited{
+    color: var(--default-link-color);
+}
+.reply-date-time{
+    color: var(--darkgray-hover-color);
+}
+
+.reply-body{
+    display: flex;
+    flex-direction: column;
+    margin: var(--medium-padding);
+}
+.reply-body.active{
+    display: flex;
+}
+.reply-body:not(.active){
+    display: none;
+}
+/* ------------------------------------------------------------------- */

@@ -1,0 +1,62 @@
+.users-main-container{
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  flex-grow: 1;
+}
+.user-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: -3px 3px 10px 0px rgb(0 72 12 / 12%),
+     2px 5px 18px 0px rgb(0 139 41 / 10%);
+  margin: 16px 0px;
+  transition: background-color 0.2s;
+  transition-timing-function: ease-in-out;
+  flex-grow: 1;
+  background-color: white;
+}
+.user-profile-picture-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 120px;
+}
+.user-profile-picture{
+  height: 120px !important;
+  width: 120px !important;
+}
+.user-info-container{
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  flex-grow: 1;
+  justify-content: center;
+  min-height: 120px;
+}
+.user-info{
+  margin: 2px 0px;
+  overflow-wrap: break-word;
+}
+.admin-buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 120px;
+}
+.admin-button:hover{
+  cursor: pointer;
+}
+.approve-button:hover{
+  color: var(--primary-color);
+}
+.reject-button:hover{
+  color: var(--red-crayola);
+}
+.edit-button:hover{
+  color: var(--orange-peel);
+}

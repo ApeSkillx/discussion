@@ -1,0 +1,41 @@
+.ss-input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  font-size: small;
+  font-weight: 500;
+}
+
+.ss-current-subjects,
+.ss-current-smd,
+.ss-current-institute {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: large;
+  color: var(--primary-color)
+}
+
+#ss-smd-options,
+#ss-institute-options{
+  height: 30px;
+  width: 400px;
+  max-width: 400px;
+  border-radius: 5px;
+}
+.ss-select-input {
+  max-width: 400px;
+  background-color: white;
+}
+
+.ss-submit-button {
+  width: max-content;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  transition: background-color 100ms ease-in-out;
+}
+
+.ss-submit-button:hover,
+.ss-submit-button:focus {
+  background-color: var(--primary-hover-color);
+}
+

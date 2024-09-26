@@ -1,0 +1,10 @@
+.signin-bg{
+  min-height: 100vh;
+  background-image: url('./blob-scene2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}

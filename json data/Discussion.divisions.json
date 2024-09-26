@@ -1,0 +1,491 @@
+[
+  {
+    "_id": {
+      "$oid": "64ddea3ec1ec30b466adef03"
+    },
+    "name": "Agricultural Chemical/Organic Chemistry",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddea96c1ec30b466adef04"
+    },
+    "name": "Agricultural Chemistry",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddeaadc1ec30b466adef05"
+    },
+    "name": "Chemistry",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddeabcc1ec30b466adef06"
+    },
+    "name": "Plant Pathology",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddeac6c1ec30b466adef07"
+    },
+    "name": "Agricultural Entomology",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddead4c1ec30b466adef08"
+    },
+    "name": "Biochemistry (Plant Sciences)",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddeadec1ec30b466adef09"
+    },
+    "name": "Biotechnology (Agriculture)",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddeaebc1ec30b466adef0a"
+    },
+    "name": "Agricultural Microbiology",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf161c1ec30b466adef0b"
+    },
+    "name": "Agricultural Nematology",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf174c1ec30b466adef0c"
+    },
+    "name": "Plant Physiology",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf19dc1ec30b466adef0d"
+    },
+    "name": "Plant Breeding & Genetics",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf1c4c1ec30b466adef0f"
+    },
+    "name": "Seed Technology",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf1d7c1ec30b466adef10"
+    },
+    "name": "Plant Genetics",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf1fcc1ec30b466adef11"
+    },
+    "name": "Genetics & Cytogenetics",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf206c1ec30b466adef12"
+    },
+    "name": "Agricultural Structure & Process Engineering",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf211c1ec30b466adef13"
+    },
+    "name": "Farm Machinery & Power",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf21ac1ec30b466adef14"
+    },
+    "name": "Food Science & Technology",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf226c1ec30b466adef15"
+    },
+    "name": "Mechnical Engineering",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf231c1ec30b466adef16"
+    },
+    "name": "Electronic & Instrumentation",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf23ac1ec30b466adef17"
+    },
+    "name": "Soil & Water Conservation Engineering",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf258c1ec30b466adef18"
+    },
+    "name": "Textile Chemistry",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf261c1ec30b466adef19"
+    },
+    "name": "Textile Manufacture",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf26ec1ec30b466adef1a"
+    },
+    "name": "Agricultural Structure & Environment Management",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf27dc1ec30b466adef1b"
+    },
+    "name": "Flouriculture",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf286c1ec30b466adef1c"
+    },
+    "name": "Fruit Science",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf28ec1ec30b466adef1d"
+    },
+    "name": "Vegetable Science",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf298c1ec30b466adef1e"
+    },
+    "name": "Spices,  Plant & Medicine Science",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf2a1c1ec30b466adef1f"
+    },
+    "name": "Agricultural Meteorology",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf2acc1ec30b466adef20"
+    },
+    "name": "Agricultural Physics",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf2b6c1ec30b466adef21"
+    },
+    "name": "Agronomy",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf2bec1ec30b466adef22"
+    },
+    "name": "Agro-Forestry",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf2c8c1ec30b466adef23"
+    },
+    "name": "Pedology",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf2dac1ec30b466adef24"
+    },
+    "name": "Soil Physics/ Soil & Water Conservation",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf2e8c1ec30b466adef25"
+    },
+    "name": "Soil Chemistry/ Fertility/ Microbiology",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf2f3c1ec30b466adef26"
+    },
+    "name": "Environmental Science",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf2fcc1ec30b466adef27"
+    },
+    "name": "Animal Genetics & Breeding",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf304c1ec30b466adef28"
+    },
+    "name": "Animal Physiology",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf310c1ec30b466adef29"
+    },
+    "name": "Biochemistry (Animal Science)",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf324c1ec30b466adef2a"
+    },
+    "name": "Biotechnology (Animal Science)",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf330c1ec30b466adef2b"
+    },
+    "name": "Dairy Chemistry",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf33fc1ec30b466adef2c"
+    },
+    "name": "Dairy Microbiology",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf349c1ec30b466adef2d"
+    },
+    "name": "Dairy Processing",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf351c1ec30b466adef2e"
+    },
+    "name": "Dairy Technology",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf35ac1ec30b466adef2f"
+    },
+    "name": "Animal Reproduction & Gynaecology",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf36ac1ec30b466adef30"
+    },
+    "name": "Livestock Product Technology",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf374c1ec30b466adef31"
+    },
+    "name": "Live Stock Production & Management",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf37dc1ec30b466adef32"
+    },
+    "name": "Veterinary Extension Education",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf388c1ec30b466adef33"
+    },
+    "name": "Veterinary Medicine",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf66ac1ec30b466adef36"
+    },
+    "name": "Veterinary Microbiology",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf676c1ec30b466adef37"
+    },
+    "name": "Veterinary Parasitology",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf685c1ec30b466adef38"
+    },
+    "name": "Veterinary Pathology",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf6a6c1ec30b466adef39"
+    },
+    "name": "Veterinary Public Health",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf6b0c1ec30b466adef3a"
+    },
+    "name": "Veterinary Surgery",
+    "member": []
+  },
+  {
+    "_id": {
+      "$oid": "64ddf6b9c1ec30b466adef3b"
+    },
+    "name": "Veterinary Pharmacology",
+    "member": []
+  },
+{
+  "_id": {
+    "$oid": "652585ebfeefbf8432ed35f5"
+  },
+  "name": "Poultry Science",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "652585ebfeefbf8432ed35f6"
+  },
+  "name": "Aquaculture",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "652585ebfeefbf8432ed35f7"
+  },
+  "name": "Fish & Fisheries Science",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "65258664feefbf8432ed35f8"
+  },
+  "name": "Fish Processing Technology",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "65258664feefbf8432ed35f9"
+  },
+  "name": "Fish Nutrition",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "65258664feefbf8432ed35fa"
+  },
+  "name": "Fish Genetics & Breeding",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "652586abfeefbf8432ed35fb"
+  },
+  "name": "Fish Health",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "652586abfeefbf8432ed35fc"
+  },
+  "name": "Fisheries Resource Management",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "652586abfeefbf8432ed35fd"
+  },
+  "name": "Agricultural Economics",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "6525873ffeefbf8432ed35fe"
+  },
+  "name": "Agricultural Extension",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "6525873ffeefbf8432ed35ff"
+  },
+  "name": "Agricultural Statistics",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "6525873ffeefbf8432ed3600"
+  },
+  "name": "Economic Botany",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "65258789feefbf8432ed3601"
+  },
+  "name": "Food and Nutrition",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "65258789feefbf8432ed3602"
+  },
+  "name": "Home Management/ Family Resource Management",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "65258789feefbf8432ed3603"
+  },
+  "name": "Agricultural Business Management",
+  "member": []
+},
+{
+  "_id": {
+    "$oid": "65258789feefbf8432ed3604"
+  },
+  "name": "Home Science Extension",
+  "member": []
+}]
