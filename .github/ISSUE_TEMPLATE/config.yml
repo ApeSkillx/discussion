@@ -1,0 +1,27 @@
+bug_report:
+  name: "Bug Report"
+  description: "Report a bug in the application"
+  title: "[BUG]"
+  labels: bug
+  assignees: []
+
+feature_request:
+  name: "Feature Request"
+  description: "Suggest a new feature or improvement"
+  title: "[FEATURE]"
+  labels: enhancement
+  assignees: []
+
+improvement_request:
+  name: "Improvement Request"
+  description: "Suggest improvements to existing features"
+  title: "[IMPROVEMENT]"
+  labels: enhancement
+  assignees: []
+
+documentation_update:
+  name: "Documentation Update"
+  description: "Request changes or additions to documentation"
+  title: "[DOC UPDATE]"
+  labels: documentation
+  assignees: []
