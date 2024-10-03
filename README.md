@@ -1,4 +1,4 @@
-# Discussion Forum
+# Discussion Forum | [LINK](https://icarforum-dhg9g2d8bzfmdbgf.brazilsouth-01.azurewebsites.net/auth)
 A discussion forum platform built using MERN Stack.
 As In the government organisation ICAR there are various posts varies in ranking and multiple groups / divisions with different or similar intrests it became quite a complex task to communicate or connect to specific person without going through a long chain of people.  
 A need was felt to have a such wonderful communication platform where everyone can contribute their views/ ideas on particular topic of interest. This powerful medium will help the authorities to share information ,seek suggestions or ideas of a group or sepcific group member in a short time.
